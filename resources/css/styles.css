@@ -184,6 +184,27 @@ main {
     text-shadow: -4px 4px 0px hotpink;
 }
 
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.clients > div {
+    margin: 0 20px;
+    display: inherit;
+    justify-content: space-around;
+}
+
+.clients > div > img {
+    width: 20%;
+    margin: 10% 20px;
+    object-fit: contain;
+    filter: brightness(3.5) contrast(0.5);
+}
+
 .foot {
     display: flex;
     flex-direction: column;
@@ -275,6 +296,13 @@ main {
         margin: 15% 10% 10% 10%;
     }
 
+    .clients {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
 
     .contact > a > i{
         font-size: 30px;
